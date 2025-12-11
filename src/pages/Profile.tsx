@@ -4,8 +4,8 @@ import { useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, TrendingUp, Award, ArrowRight } from "lucide-react";
-// let currentInterviewFeedback = "";
-// let currentscore = 0;
+let currentInterviewFeedback = "";
+let currentscore = 0;
 const interviewHistory = [
   {
     id: 2,
